@@ -11,13 +11,13 @@ import Login from "./assets/pages/Login";
 import Profile from "./assets/components/Profile";
 import NotFound from "./assets/components/NotFound";
 import Header from "./assets/components/Header";
-import { UserProvider } from "./assets/context/UserContext"; // Asegúrate de importar UserProvider
-import { CartProvider } from "./assets/context/CartContext"; // Importar CartProvider
+import { UserProvider } from "./assets/context/UserContext"; 
+import { CartProvider } from "./assets/context/CartContext";
 
 function App() {
   return (
-    <UserProvider> {/* Envolver toda la aplicación con UserProvider */}
-      <CartProvider> {/* Envolver toda la aplicación con CartProvider */}
+    <UserProvider> 
+      <CartProvider>
         <Router>
           <>
             <Navbars />
